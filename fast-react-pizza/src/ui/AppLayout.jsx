@@ -1,0 +1,23 @@
+import { Outlet, useNavigation } from 'react-router-dom'
+import CartOverview from '../features/cart/CartOverview'
+import Header from './Header'
+import Home from './Home'
+import Loader from './Loader'
+
+export default function AppLayout({}) {
+  const navigation = useNavigation()
+  const isLoading = navigation.state === 'loading'
+
+  console.log(navigation)
+
+  return (
+    <div className='layout'>
+      {isLoading && <Loader />}
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <CartOverview />
+    </div>
+  )
+}
