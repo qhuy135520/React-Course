@@ -47,6 +47,30 @@
         "lat": "16.05373203008907",
         "lng": "108.20434570312501"
       }
+    },
+    {
+      "id": "49ad",
+      "cityName": "Hanoi",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2025-08-14T13:17:51.475Z",
+      "notes": "Winter Soldier",
+      "position": {
+        "lat": "21.207458730482653",
+        "lng": "105.79833984375001"
+      }
+    },
+    {
+      "id": "16d1",
+      "cityName": "Kon Plong",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2025-08-14T13:18:13.044Z",
+      "notes": "Bad people",
+      "position": {
+        "lat": "14.599531422729925",
+        "lng": "108.27301025390626"
+      }
     }
   ]
 }
